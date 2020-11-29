@@ -34,3 +34,8 @@ MD032: False
 
 # Allow using raw HTML markups as workarounds of deficiencies of Markdown
 MD033: False
+
+# Allow using YAML front matter, while not require the definition of the
+# `title` property
+MD041:
+  front_matter_title: '.*'
