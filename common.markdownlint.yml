@@ -1,6 +1,6 @@
 # Markdownlint(Node.js variant) configuration file
 # https://github.com/igorshubovych/markdownlint-cli#configuration
-# 
+#
 # This file is based on The Common Markdownlint(Node.js variant) Configuration Templates project
 # https://github.com/Lin-Buo-Ren/common-markdownlint-nodejs-config-templates
 
@@ -26,7 +26,7 @@ MD013: False
 MD022: False
 
 # Allow duplicated non-sibling heading text
-MD024: 
+MD024:
   siblings_only: True
 
 # Allow missing padding blank line between a list and its context
