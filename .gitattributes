@@ -19,4 +19,4 @@
 /LICENSES/WTFPL.* export-ignore
 
 # Include dep5 declaration file in release archive
-/.reuse/** -export-ignore
+/.reuse/ -export-ignore
