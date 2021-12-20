@@ -33,6 +33,9 @@
 # Do track REUSE configuration files
 !.reuse/
 
+# Do track yamllint configuration files
+!.yamllint
+
 # Don't track common backup filename extensions
 *~
 *.bk*
