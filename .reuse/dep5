@@ -3,6 +3,8 @@ Upstream-Name: The Common Markdownlint(Node.js variant) Configuration Templates
 Upstream-Contact: 林博仁(Buo-ren, Lin) <https://github.com/Lin-Buo-Ren/common-markdownlint-configs-nodejs/issues>
 Source: https://github.com/Lin-Buo-Ren/common-markdownlint-configs-nodejs
 
-Files: README* */README*
+Files:
+    README*
+    */README*
 Copyright: 2021 林博仁(Buo-ren, Lin) <Buo.Ren.Lin@gmail.com>
 License: CC-BY-SA-4.0

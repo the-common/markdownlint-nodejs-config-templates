@@ -4,9 +4,10 @@
 # Exclude files not suitable for version tracking in Git
 #
 # This file is based on The Common .gitignore Templates
-# https://github.com/Lin-Buo-Ren/common-gitignore
-# Copyright 2021 林博仁(Buo-ren, Lin) <Buo.Ren.Lin@gmail.com>
-# SPDX-License-Identifier: CC-BY-SA-4.0
+# https://github.com/the-common/gitignore-templates
+#
+# Copyright 2022 林博仁(Buo-ren, Lin) <Buo.Ren.Lin@gmail.com>
+# SPDX-License-Identifier: CC-BY-SA-4.0 OR LicenseRef-Apache-2.0-If-Not-Used-In-Template-Projects
 
 # Don't track regular Unix hidden files
 .*
@@ -30,19 +31,22 @@
 # https://docs.drone.io/
 !.drone.yml
 
-# Do track REUSE configuration files
-!.reuse/
-
 # Do track yamllint configuration files
 !.yamllint
 
+# Do track REUSE configuration files
+# https://reuse.software/
+!.reuse/
+
+# Do track GitLab CI configuration file
+!/.gitlab-ci.yml
+
 # Don't track common backup filename extensions
 *~
-*.bk*
 *.bak*
 *.backup*
-*.old*
 *.bk*
+*.old*
 *.orig*
 
 ## Don't track common archive files
@@ -60,18 +64,27 @@
 
 # Don't track common export formats from Markdown
 *.doc?
-*.pdf
 *.htm?
+*.pdf
 
 # Don't track common program output logs
+*.err
+*.error
 *.log
 *.out
 *.output
-*.err
-*.error
 
 # Don't track compiled Python code caches
 *.pyc
 
 # Don't track Vagrant runtime directories
 .vagrant/
+
+# Don't track GNU gettext message catalog template
+*.pot
+
+# Don't track GNU gettext machine-readable message catalogs
+*.mo
+
+# Don't track continuous integration virtual environments
+/continuous-integration/venv/
