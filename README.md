@@ -2,7 +2,7 @@
 
 This project provides a common base of Markdownlint(Node.js variant)'s configuration file(.markdownlint.yml) that should be easily adaptable for most project's with little modifications.
 
-[![The indication badge of Continuous Integration(CI)'s current status](https://cloud.drone.io/api/badges/Lin-Buo-Ren/common-markdownlint-configs-nodejs/status.svg "Continuous Integration(CI) status")](https://cloud.drone.io/Lin-Buo-Ren/common-markdownlint-configs-nodejs)
+[![The indication badge of Continuous Integration(CI)'s current status](https://cloud.drone.io/api/badges/the-common/markdownlint-nodejs-config-templates/status.svg "Continuous Integration(CI) status")](https://cloud.drone.io/the-common/markdownlint-nodejs-config-templates)
 
 ## Reference
 
